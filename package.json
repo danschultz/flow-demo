@@ -1,0 +1,27 @@
+{
+  "name": "flow-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:watch": "webpack --watch",
+    "serve": "http-server"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "redux": "^3.7.1",
+    "systemjs": "^0.20.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "flow-bin": "^0.49.1",
+    "http-server": "^0.10.0",
+    "prettier": "^1.5.2",
+    "webpack": "^3.1.0"
+  }
+}
